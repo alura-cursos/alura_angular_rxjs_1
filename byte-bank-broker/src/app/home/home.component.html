@@ -1,0 +1,14 @@
+<div class="po-wrapper">
+  <po-toolbar
+    p-notification-number="0"
+    [p-title]="title"
+    [p-show-notification]="false"
+    [p-notification-actions]="[]"
+    [p-profile]="profile"
+    [p-profile-actions]="profileActions"
+  >
+  </po-toolbar>
+
+  <po-menu [p-menus]="menu" [p-logo]="logo"></po-menu>
+  <router-outlet></router-outlet>
+</div>
