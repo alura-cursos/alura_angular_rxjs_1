@@ -1,0 +1,15 @@
+.app-no-data {
+  position: relative;
+  padding: 8px 8px 8px 48px;
+  color: #ffffff;
+}
+
+.app-no-data.app-no-data-warning {
+  background-color: #ea9b3e;
+}
+
+.app-no-data.app-no-data-warning::before {
+  content: '!';
+  position: absolute;
+  left: 23px;
+}
