@@ -15,8 +15,8 @@ export class AcoesComponent implements OnInit {
   constructor(private acoesService: AcoesService) {}
 
   ngOnInit() {
-    this.acoesService.getAcoes().subscribe((retornoApi) => {
-      this.acoes = retornoApi.payload;
+    this.acoesService.getAcoes().subscribe((acoes) => {
+      this.acoes = acoes;
     });
   }
 }
